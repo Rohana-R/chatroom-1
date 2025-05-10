@@ -18,7 +18,7 @@ spec:
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: Test@123
-              name: MYSQL_DATABASE
+            - name: MYSQL_DATABASE
               value: chatapp
           ports:
             - containerPort: 3306

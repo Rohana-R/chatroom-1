@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: chat-cont
-          image: roahan1234/chat
+          image: rohana1234/chat
           ports:
             - containerPort: 80
